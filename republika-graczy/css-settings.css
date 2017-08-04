@@ -1,0 +1,456 @@
+﻿/*
+This CSS is theme for plug.dj community purposes, cannot be used without my permission in any room.
+ 
+CSS Made by Aedificavit
+
+Please do not copy or modify without my permission.
+
+Copyright (©) 2017 Fincito, Aedificavit, FincelyFox, all of which are the same person. 
+ 
+All rights reserved. 
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE. 
+
+*/
+::selection {
+background: #b8b8ff;
+}
+body {
+color: #fff;
+}
+.room-background {
+    background-image: url(https://i.imgur.com/GZKgCpk.png)!important;
+}
+.app-header {
+    box-shadow: inset 0 -2px 0 -1px #424179;
+    background: linear-gradient(to bottom,rgb(57, 47, 86) 0,#000 100%);
+}
+#app-menu.open {
+    box-shadow: 2px 0 10px 0 rgba(255, 255, 255, 0);
+}
+#app-menu .list {
+    background: rgba(0, 0, 0, 1);
+	color: #FFF;
+}
+#app-menu .list .item {
+    box-shadow: inset 0 -1px 0 0 #424179;
+}
+#app-menu .list .item:hover, #app-menu .list .logout:hover, #app-menu .list .rcsunload :hover {
+    background: #6565ad;
+}
+#app-menu .list .logout, #app-menu .list .rcsunload  {
+    border: 1px solid #424179;
+}
+#dashboard {
+ background: rgba(0, 0, 0, 0.6);
+}
+#history-button {
+    box-shadow: inset 2px -2px 0 -1px #424179;
+	background: linear-gradient(to bottom,rgb(57, 47, 86) 0,#000 100%);
+	border-right: 1px solid;
+    border-right-color: #424179;
+}
+#history-button.selected {
+    background: linear-gradient(to bottom, #5f5fca 0,#000 100%);
+}
+#history-panel {
+    background: rgba(0, 0, 0, 0.8);
+}
+#app-menu {
+    border-right: 1px solid #424179;
+}
+#app-menu .button {
+    background: linear-gradient(to bottom, rgb(57, 47, 86) 0, #000 100%);
+}
+#app-menu .list .item span {
+    color: #FFF;
+}
+.header-panel-button.selected {
+    background: linear-gradient(145deg, rgb(0, 0, 0) 0, #6565AD , #000 100%);
+}
+.header-panel-button {
+    border-right: #424179 1px solid;
+}
+#user-lists, #waitlist {
+    background: #000;
+}
+#waitlist .list .user {
+    background: rgba(0, 0, 0, 0.35);
+}
+#user-lists .list.staff .group {
+    border-top: 1px solid #424179;
+    border-bottom: 1px solid #424179;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0, rgb(57, 47, 86) , #000 100%);
+}
+#user-lists .list .user:hover {
+    background: linear-gradient(3.5deg, rgb(0, 0, 0) 0, #6565ad , #000 100%);
+}
+#user-rollover {
+	background: rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 10px 0 rgba(255, 255, 255, 0.99);
+}
+#user-rollover .info {
+    background: rgba(0, 0, 0, 0.0);
+}
+#user-rollover.expand.can-skip.chat .arrow-down, #user-rollover.expand.chat .arrow-down, #user-rollover.expand.self.can-skip.chat .arrow-down {
+    border-left: 8px solid #ffffff;
+}
+#user-rollover .actions .action:hover {
+    background: #424179;
+}
+.app-right .friends {
+    background: #000;
+}
+#footer-user .buttons .button {
+    box-shadow: inset 1px 0 0 0 #424179;
+}
+#playlist-button {
+    background: linear-gradient(to left,#000000 0,#424179 100%);
+}
+#footer-user .buttons .button:hover {
+    background: #0f061f;
+}
+#footer-user .buttons .button.store:hover {
+    background: linear-gradient(to bottom,#601aa0 0,#000000 100%);
+}
+#footer-user .back {
+    background: linear-gradient(to right, rgb(0, 0, 0) 0, #6565ad , #000 100%);
+}
+#footer-user .info {
+    background: linear-gradient(to right, rgb(0, 0, 0) 0, rgb(57, 47, 86) , #000 100%);
+}
+#footer {
+    background: url(http://i.imgur.com/BcuQ2UE.jpg) no-repeat;
+    background-size: 300px;
+    background-position: 37% -10px;
+}
+#room-bar .icon-room {
+    background: url(http://i.imgur.com/Xu0jTab.png);
+    background-size: 210px;
+    background-position: 50% -10px;
+}
+#search {
+    background: linear-gradient(to right, rgb(0, 0, 0) 0, rgb(57, 47, 86) , #000 100%);
+	border-bottom: 1px solid;
+    border-bottom-color: #424179;
+    z-index: 1;
+}
+#search-bar, #filter-bar, #import-youtube .youtube-input, #user-lists .list-header .input-background, .app-right .friends .list-header .input-background , #user-friends .search, #dashboard .search {
+    box-shadow: inset 0 0 0 1px #424179;
+	background: #000000;
+}
+#playlist-panel {
+    background: rgba(17, 19, 23, 0);
+}
+#playlist-menu {
+    background: linear-gradient(to top, rgb(0, 0, 0) 0, rgb(57, 47, 86) , #000 100%);
+    border-right: 1px solid;
+    border-right-color: #424179;
+    border-top: 1px solid;
+    border-top-color: #424179;
+	z-index: 1;
+}
+#playlist-menu .menu {
+    border-top: 1px solid;
+    border-top-color: #424179;
+}
+#playlist-menu .title {
+    color: #ffffff;
+}
+#media-panel {
+    background: rgba(0, 0, 0, 0.9);
+}
+#search-menu li:hover {
+    background: #424179;
+}
+#search-menu li, #search-menu ul, #search-menu:hover>.selected {
+    background: #000000;
+}
+#playlist-edit-button {
+z-index: 1;
+}
+#playlist-edit-button , #playlist-shuffle-button, #playlist-delete-button{
+    background: #424179;
+}
+#playlist-menu .button {
+    border-top: 1px solid;
+    border-top-color: #424179;
+	background: #000;
+}
+
+/*
+#playlist-edit-button:hover {
+    background: linear-gradient(135deg,#424179 0,#000000 100%);
+}
+#playlist-edit-button , #playlist-shuffle-button {
+	border-right: 1px solid;
+    border-right-color: #FFF;
+}
+*/
+#playlist-create {
+    border-left: 1px solid;
+	border-left-color: #424179;
+}
+#playlist-import-panel {
+    top: auto;
+    left: auto;
+    width: 100% !important;
+	height: 9000% !important;
+    background: rgba(0, 0, 0, 0.9);
+}
+#playlist-import-panel .bar-divider, #import-youtube, #import-soundcloud {
+top: 50px;
+}
+.media-list .meta {
+    border-bottom: #6565ad 1px solid;
+}
+#dj-button {
+background: rgba(0, 0, 0, 0.5);
+border-radius: 40px;
+}
+#dj-button .left {
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0, #6565ad , #000 100%);
+	border-radius: 40px 0 0 40px;
+}
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0, #9c0c0c , #000 100%);
+}
+#dj-button.is-full .left, #dj-button.is-locked .left {
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0, #8a2b7e , #000 100%);
+}
+#vote .crowd-response {
+    background: rgba(101, 101, 173, 0.34);
+}
+#woot .bottom, #woot.selected {
+    background: #90ad2f !important;
+}
+#grab .bottom, #grab.selected {
+    background: #aa74ff !important;
+}
+#meh .bottom, #meh.selected {
+    background: #c42e3b !important;
+}
+#chat {
+    background: #000;
+}
+#chat-input {
+    background: #23223e;
+}
+#chat .system {
+    background: linear-gradient(157deg, rgb(0, 0, 0) 0, #424179 , #000 100%) !important;
+}
+#chat-messages {
+    color: #fff;
+}
+#chat .cm:nth-child(2n+1) {
+    background-color: rgba(35, 34, 62, 0.67);
+}
+/* staff stuff below 
+ 
+ and my own stuff bcuz im creator of this style!!!
+ 
+*/
+#chat-messages [data-cid|="3476433"] .icon-chat-host, #chat-messages [data-cid|="3476433"] .icon-chat-cohost, #chat-messages [data-cid|="3476433"] .icon-chat-manager, #chat-messages [data-cid|="3476433"] .icon-chat-bouncer, #chat-messages [data-cid|="3476433"] .icon-chat-residentdj {
+background: url(https://raw.githubusercontent.com/Plateam/Bot/master/Other/custom_staff.ico) no-repeat;
+}
+#chat-messages [data-cid|="4265445"] .icon-chat-host, #chat-messages [data-cid|="4265445"] .icon-chat-cohost, #chat-messages [data-cid|="4265445"] .icon-chat-manager, #chat-messages [data-cid|="4265445"] .icon-chat-bouncer, #chat-messages [data-cid|="4265445"] .icon-chat-residentdj {
+background: url(https://raw.githubusercontent.com/Plateam/Bot/master/Other/bot.png) no-repeat;
+left: 2px;
+}
+#chat [data-cid|="3476433"] .from .un {
+color: #FF7400 !important;
+}
+#chat-messages [data-cid|="3476433"] {
+background: linear-gradient(to bottom, #000 0, #934720 , #000 100%) !important;
+}
+#chat .cm [data-cid|="3476433"] {
+background: linear-gradient(to bottom, #000 0, #934720 , #000 100%) !important;
+}
+#chat-messages [data-cid|="3476433"] .badge-box, #chat-messages [data-cid|="22984786"] .badge-box, #chat-messages [data-cid|="4009488"] .badge-box {
+background: rgba(0, 0, 0, 0);
+}
+#chat [data-cid|="4265445"] .un:after {
+content: 'BOT';
+border-style: solid;
+border-color: #ac76ff;
+border-radius: 2px;
+border-width: 1px;
+font-size: 10px;
+display: inline-block;
+margin: 0 0 0 8px;
+padding: 0 2px;
+color: #ac76ff;
+font-style: normal;
+}
+/* Noiru */
+#chat-messages [data-cid|="22984786"] {
+background: linear-gradient(to bottom, #000 0, #462382 , #000 100%) !important;
+}
+#chat [data-cid|="22984786"] .from .un {
+color: #8d71d3 !important;
+}
+/* Vezki */
+#chat-messages [data-cid|="4009488"] {
+background: linear-gradient(to bottom, #252323 0, #000 , #252323 100%) !important;
+}
+#chat-messages [data-cid|="4009488"] .icon-chat-host, #chat-messages [data-cid|="4009488"] .icon-chat-cohost, #chat-messages [data-cid|="4009488"] .icon-chat-manager, #chat-messages [data-cid|="4009488"] .icon-chat-bouncer, #chat-messages [data-cid|="4009488"] .icon-chat-residentdj {
+background: url(https://raw.githubusercontent.com/Plateam/Bot/master/Other/custom_staff2.gif) no-repeat;
+background-size: 15px 15px;
+}
+#chat [data-cid|="4009488"] .from .un {
+color: #ac76ff !important;
+}
+#tooltip span {
+background: linear-gradient(155deg,#6565ad 0,#000000 100%);
+color: white;
+}
+#tooltip.right .corner {
+border-right: 10px solid #FFFFFF;
+}
+#tooltip .corner {
+border-left: 10px solid #FFFFFF;
+}
+.experience .xp .bar .progress, #footer-user .info .bar .progress {
+background: #424179;
+}
+.dialog {
+background: rgba(0, 0, 0, 0.71);
+box-shadow: 0 0 5px #FFF;
+}
+.dialog-body {
+background: rgba(0, 0, 0, 0.77);
+}
+.dialog-frame .button.submit {
+background: linear-gradient(to bottom,#424179 0,#000 100%);
+}
+#room-settings {
+background: linear-gradient(to bottom, black, rgb(15, 3, 44), #05223D, rgba(0, 0, 0, 1));
+}
+#room-settings .general-settings .option button.off {
+background: linear-gradient(to bottom,#424179 0,#000 100%);
+}
+#room-settings-menu {
+background: #000;
+}
+#room-settings .general-settings .option.enabled>button.on {
+background: linear-gradient(to bottom,#932D00 0,#000 100%);
+}
+/* , #waitlist .list .sortable-placeholder */
+#user-view {
+    background: rgba(0, 0, 0, 0.7);
+}
+#user-menu {
+    background: rgba(0, 0, 0, 0.4);
+}
+.dropdown {
+    background: #424179;
+}
+.dropdown dt {
+    box-shadow: inset -39px 0 0 0 #7474da;
+}
+.dropdown dd {
+    background: #000000;
+}
+.dropdown dd .row {
+    color: #ffffff;
+}
+.dropdown dd .row:hover {
+    background: #424179;
+}
+.user-content .grid .cell .top {
+background: linear-gradient(to bottom,#6565ad 0,#000000 56%,#000000 73%,#6565ad 100%);
+}
+.user-content .grid .cell:hover>.top {
+    background: linear-gradient(to bottom,#aaaaff 0,#000000 56%,#000000 73%,#aaafff 100%);
+}
+.user-content .grid .cell, .user-content.communities .grid .cell {
+    background: #1c1f25;
+}
+#user-store .misc .grid .cell .top {
+    background: linear-gradient(to bottom,#000000 0,#6565ad 46%,#000000 100%);
+}
+#user-store .misc .grid .cell:hover>.top {
+	background: linear-gradient(to bottom,#000000 0,#7474da 46%,#000000 100%);
+}
+#user-friends .list .row {
+    background: rgba(0, 0, 0, 0.6);
+}
+#user-friends .list .row .buttons button {
+    background: #424179;
+}
+.experience .levels .level {
+background: #000000;
+}
+.experience .levels .level .label {
+    background: #6565ad;
+}
+.communities .grid .cell:hover>.meta {
+    background: rgba(30, 30, 56, 0.9) !important;
+}
+.communities .grid .cell .bar, .communities .grid .cell .favorite {
+    background: #424179 !important;
+}
+.communities .grid .cell .meta .join {
+    border: 1px solid #6565ad;
+    background: #302f5f !important;
+}
+.communities .grid .cell .population .friends .divider, .communities .grid .cell .population .guests .divider {
+    background: #ffffff !important;
+}
+.communities .grid .cell .population div.guests span, .communities .grid .cell .population div.friends span {
+    color: #d3d4d6 !important;
+}
+.communities .grid .cell, .communities .grid .cell .meta {
+    background: #424179 !important;
+}
+.user-content .grid .cell, #user-store .misc .grid .cell .title-bar {
+	background: #424179;
+}
+#rcs-progress-container .bar {
+background-color: #6565ad !important;
+}
+#plugcubed {
+    background: linear-gradient(to bottom,rgb(57, 47, 86) 0,#000 100%) !important;
+    box-shadow: inset 0 -2px 0 -1px rgba(66, 65, 121, 0) !important;
+    border-right: 1px solid #424179 !important;
+}
+#rs-skip-button {
+    background: linear-gradient(to bottom,rgb(57, 47, 86) 0,#000 100%) !important;
+    box-shadow: inset 2px -2px 0 -1px #424179 !important;
+}
+#chat-messages [data-cid|='4265445'] {
+color: #FFFFFF;
+font-weight: 700;
+border-left: #AC76FF 3px solid;
+background-color: #0C0B31 !important;
+}
+#chat .emote: nth-child(2n+1) [data-cid|='4265445'] {
+background-color: #0C0B31 !important;
+}
+#chat .emote [data-cid|='4265445'] {
+background-color: #00122D !important;
+#chat .message: nth-child(2n+1) [data-cid|='4265445'] {
+background-color: #0C0B31 !important;
+}
+#chat-messages [data-cid|='4265445'] .icon-chat-cohost {
+background-position: -147px -287px;
+}
+#chat-messages [data-cid|='4265445'] .icon-chat-manager {
+background-position: -147px -287px;
+}
+#chat-messages [data-cid|='4265445'] .badge-box {
+background: rgba(40, 44, 53, 0);
+}
+/*
+$('<link/>', {
+   rel: 'stylesheet',
+   type: 'text/css',
+   href: 'https://rawgit.com/Plateam/Bot/semi-master/Other/Css/plugstyler.css'
+}).appendTo('head');
+*/
