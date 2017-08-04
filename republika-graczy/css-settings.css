@@ -251,17 +251,8 @@ border-radius: 40px;
 #chat .cm:nth-child(2n+1) {
     background-color: rgba(35, 34, 62, 0.67);
 }
-/* staff stuff below 
- 
- and my own stuff bcuz im creator of this style!!!
- 
-*/
 #chat-messages [data-cid|="3476433"] .icon-chat-host, #chat-messages [data-cid|="3476433"] .icon-chat-cohost, #chat-messages [data-cid|="3476433"] .icon-chat-manager, #chat-messages [data-cid|="3476433"] .icon-chat-bouncer, #chat-messages [data-cid|="3476433"] .icon-chat-residentdj {
 background: url(https://raw.githubusercontent.com/Plateam/Bot/master/Other/custom_staff.ico) no-repeat;
-}
-#chat-messages [data-cid|="4265445"] .icon-chat-host, #chat-messages [data-cid|="4265445"] .icon-chat-cohost, #chat-messages [data-cid|="4265445"] .icon-chat-manager, #chat-messages [data-cid|="4265445"] .icon-chat-bouncer, #chat-messages [data-cid|="4265445"] .icon-chat-residentdj {
-background: url(https://raw.githubusercontent.com/Plateam/Bot/master/Other/bot.png) no-repeat;
-left: 2px;
 }
 #chat [data-cid|="3476433"] .from .un {
 color: #FF7400 !important;
@@ -274,37 +265,6 @@ background: linear-gradient(to bottom, #000 0, #934720 , #000 100%) !important;
 }
 #chat-messages [data-cid|="3476433"] .badge-box, #chat-messages [data-cid|="22984786"] .badge-box, #chat-messages [data-cid|="4009488"] .badge-box {
 background: rgba(0, 0, 0, 0);
-}
-#chat [data-cid|="4265445"] .un:after {
-content: 'BOT';
-border-style: solid;
-border-color: #ac76ff;
-border-radius: 2px;
-border-width: 1px;
-font-size: 10px;
-display: inline-block;
-margin: 0 0 0 8px;
-padding: 0 2px;
-color: #ac76ff;
-font-style: normal;
-}
-/* Noiru */
-#chat-messages [data-cid|="22984786"] {
-background: linear-gradient(to bottom, #000 0, #462382 , #000 100%) !important;
-}
-#chat [data-cid|="22984786"] .from .un {
-color: #8d71d3 !important;
-}
-/* Vezki */
-#chat-messages [data-cid|="4009488"] {
-background: linear-gradient(to bottom, #252323 0, #000 , #252323 100%) !important;
-}
-#chat-messages [data-cid|="4009488"] .icon-chat-host, #chat-messages [data-cid|="4009488"] .icon-chat-cohost, #chat-messages [data-cid|="4009488"] .icon-chat-manager, #chat-messages [data-cid|="4009488"] .icon-chat-bouncer, #chat-messages [data-cid|="4009488"] .icon-chat-residentdj {
-background: url(https://raw.githubusercontent.com/Plateam/Bot/master/Other/custom_staff2.gif) no-repeat;
-background-size: 15px 15px;
-}
-#chat [data-cid|="4009488"] .from .un {
-color: #ac76ff !important;
 }
 #tooltip span {
 background: linear-gradient(155deg,#6565ad 0,#000000 100%);
@@ -423,4 +383,7 @@ background-color: #6565ad !important;
 #rs-skip-button {
     background: linear-gradient(to bottom,rgb(57, 47, 86) 0,#000 100%) !important;
     box-shadow: inset 2px -2px 0 -1px #424179 !important;
+}
+#room-settings .general-settings .description .value a:contains(dl.dropboxusercontent.com) {
+display: none;
 }
