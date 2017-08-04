@@ -424,33 +424,3 @@ background-color: #6565ad !important;
     background: linear-gradient(to bottom,rgb(57, 47, 86) 0,#000 100%) !important;
     box-shadow: inset 2px -2px 0 -1px #424179 !important;
 }
-#chat-messages [data-cid|='4265445'] {
-color: #FFFFFF;
-font-weight: 700;
-border-left: #AC76FF 3px solid;
-background-color: #0C0B31 !important;
-}
-#chat .emote: nth-child(2n+1) [data-cid|='4265445'] {
-background-color: #0C0B31 !important;
-}
-#chat .emote [data-cid|='4265445'] {
-background-color: #00122D !important;
-#chat .message: nth-child(2n+1) [data-cid|='4265445'] {
-background-color: #0C0B31 !important;
-}
-#chat-messages [data-cid|='4265445'] .icon-chat-cohost {
-background-position: -147px -287px;
-}
-#chat-messages [data-cid|='4265445'] .icon-chat-manager {
-background-position: -147px -287px;
-}
-#chat-messages [data-cid|='4265445'] .badge-box {
-background: rgba(40, 44, 53, 0);
-}
-/*
-$('<link/>', {
-   rel: 'stylesheet',
-   type: 'text/css',
-   href: 'https://rawgit.com/Plateam/Bot/semi-master/Other/Css/plugstyler.css'
-}).appendTo('head');
-*/
